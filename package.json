@@ -1,0 +1,8 @@
+{
+  "name": "sublime-beetle",
+  "version": "0.1.0",
+  "dependencies": {
+    "beetle": "0.1.*"
+  },
+  "license": "MIT"
+}
