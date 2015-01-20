@@ -5,9 +5,9 @@
         "children":
         [
             {
-                "id": "css_comb_js",
-                "caption": "Run CSScomb",
-                "command": "css_comb"
+                "id": "bettle_js",
+                "caption": "Run bettle",
+                "command": "bettle"
             }
         ]
     },
@@ -30,7 +30,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/beetle/README.md"
+                                    "file": "${packages}/sublime-beetle/README.md"
                                 },
                                 "caption": "README"
                             },
@@ -38,7 +38,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/beetle/beetle.sublime-settings"
+                                    "file": "${packages}/sublime-beetle/beetle.sublime-settings"
                                 },
                                 "caption": "Settings – Default"
                             },
@@ -53,7 +53,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/beetle/Default.sublime-keymap"
+                                    "file": "${packages}/sublime-beetle/Default.sublime-keymap"
                                 },
                                 "caption": "Key Bindings – Default"
                             },
