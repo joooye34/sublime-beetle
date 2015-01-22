@@ -5,7 +5,7 @@
         "children":
         [
             {
-                "id": "bettle_js",
+                "id": "bettle",
                 "caption": "Run bettle",
                 "command": "bettle"
             }
