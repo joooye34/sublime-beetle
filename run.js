@@ -12,7 +12,7 @@ function formatFile(path){
   try{
     var fileStr = fs.readFileSync(path, 'utf8');
     var beetle = new Beetle(fileStr);
-    fileStr = beetle.formatRequires().getFileString();
+    fileStr = beetle.replaceDefine().formatRequires().getFileString();
     re.push(200);
     re.push(fileStr);
   }catch(err){
