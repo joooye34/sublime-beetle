@@ -38,7 +38,7 @@ class BeetleCommand(sublime_plugin.TextCommand):
   def get_output_list(self, output):
     index = output.find(OUTPUT_VALID)
     code = int(output[:index])
-    data = output[index + len(OUTPUT_VALID):]
+    data = output[index + len(OUTPUT_VALID):len(output) -1]
     return [code, data]
 
   def clear_view(self):
